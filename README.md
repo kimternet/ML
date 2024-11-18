@@ -1,9 +1,9 @@
 # 1. 사이킷런(scikit-learn)
-  -scikit-learn 주요 모듈, Estimator API, 데이터 전처리 모듈, 성능 평가 지표 학습
+    -scikit-learn 주요 모듈, Estimator API, 데이터 전처리 모듈, 성능 평가 지표 학습
 # 2. 선형 모델(Linear Models)
-  -선형 회귀 Linear Regression, 릿지 회귀 Ridge Regression, 라쏘 회귀 Lasso Regression, 신축망 ElasticNet, 직교 정합 추구 Orthogonal Matchin Pursuit, 다항 회귀 Polynomial Regression
+    -선형 회귀 Linear Regression, 릿지 회귀 Ridge Regression, 라쏘 회귀 Lasso Regression, 신축망 ElasticNet, 직교 정합 추구 Orthogonal Matchin Pursuit, 다항 회귀 Polynomial Regression
 # 3. 로지스틱 회귀(Logistic Regression)
-  -로지스틱 회귀 개념부터 다양한 데이터 적용, 확률적 경사 하강법(Stochastic Gradient Descent)
+    -로지스틱 회귀 개념부터 다양한 데이터 적용, 확률적 경사 하강법(Stochastic Gradient Descent)
 # 4. k최근접 이웃(k Nearest Neighbor)
   - k Nearest Neighbor을 이용한 분류와 회귀
 # 5. 나이브 베이즈(Naive Bayes)
