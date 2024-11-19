@@ -81,7 +81,135 @@
 6. Kernel SVR
 7. Linear SVC
 8. Kernel SVC
-## 7. 결정 트리(Deci원
+## 7. 결정 트리(Decision Tree)
+- 의사결정 분석, 지니 불순도 Gini Index, 정보 획득량 Information Gain, 분산 감소
+1. 분류를 위한 데이터
+2. 회귀를 위한 데이터
+3. 분류-DecisionTreeClassifier
+   - 교차검증
+     - 전처리 없이 학습
+     - 전처리 후 학습
+   - 학습된 결정 트리 시각화
+     - 텍스트를 통한 시각화
+     - plot_tree를 사용한 시각화
+     - graphviz를 사용한 시각화
+   - 시각화
+     - 결정 경계 시각화
+     - 하이퍼파라미터를 변경하면서 결정 경계의 변화 확인
+4. 회귀-DecisionTreeRegressor
+   - 교차검증
+     - 전처리 없이 학습
+     - 전처리 후 학습
+   - 학습된 결정 트리 시각화
+     - 텍스트를 통한 시각화
+     - plot_tree를 사용한 시각화
+     - graphviz를 사용한 시각화
+   - 시각화
+     - 회귀식 시각화
+     - 하이퍼파라미터를 변경하면서 회귀식 시각화
+## 8. 앙상블(Ensemble)
+- Bagging 분류와 회귀, 랜덤 포레스트 Random Forest, 에이다부스트 Ada Boost, 그레디언트 트리 부스팅 Gradient Tree Boosting, 스택 Stack, 보팅 Voting
+1. Bagging meta-estimator
+   - Bagging을 사용한 분류
+     - KNN
+     - SVC
+     - Decision Tree
+   - Bagging을 사용한 회귀
+     - KNN
+     - SVR
+     - Decision Tree
+2. Forests of randomized trees
+   - Random Forests 분류
+   - Random Forests 회귀
+   - Extremely Randomized Trees
+   - Extremely Randomized Trees
+   - Random Forest, Extra Tree 시각화
+3. AdaBoost
+   - AdaBoost 분류
+   - AdaBoost 회귀
+4. Gradient Tree Boosting
+   - Gradient Tree Boosting 분류
+   - Gradient Tree Boosting 회귀
+5. 투표 기반 분류(Voting Classifier)
+   - 결정 경계 시각화
+6. 투표 기반 회귀(Voting Regressor)
+   - 회귀식 시각화
+7. 스택 일반화(Stacked generalization)
+   - 스택 회귀
+    - 회귀식 시각화
+   - 스택 분류
+    - 결정 경계 시각화
+## 9. XGBoost, LightGBM
+- 트리 기반 앙상블, XGBClassifier, XGBRegressor, LGBMClassifier, LGBMRegressor
+1. XGBoost
+   - 파이썬 기반 XGBoost
+   - XGBClassifier
+   - XGBRegressor
+2. LightGBM
+   - LGBMClassifier
+   - LGBMRegressor
+## 10. 군집화(Clustering)
+- K-Means, 미니 배치, 스펙트럼 군집화, 계층 군집화, DBSCAN, OPTICS, BIRCH
+1. 데이터 생성
+2. K-평균(K-Means)
+3. 미니배치 K-평균(Mini Batch K-Means)
+4. Affinity Propagation
+5. Mean Shift
+6. 스펙트럼 군집화(Spectral Clustering)
+7. 계층 군집화(Hierarchical Clustering)
+8. DBSCAN(Density-Based Spatial Clustering of Applications with Noise)
+9. OPTICS (Ordering Points To Identify the Clustering Structure)
+10. Birch(Balanced iterative reducing and clustering using hierarchies)
+11. 손글씨 데이터 군집화
+    - K-MEANS
+    - Spectral Clustering
+    - Hierarchical Clustering
+    - Birch
+## 11. 다양체 학습(Manifold Learning)
+- 차원 축소, t-SNE, MDS, LLE, LTSA, Hessian, Isomap Modified LLE, SE
+1. 데이터 생성 및 시각화 함수
+2. Locally Linear Embedding(LLE)
+3. Local Tangent Space Alignment(LTSA)
+4. Hessian Eigenmapping
+5. Modified Locally Linear Embedding
+6. Isomap
+7. Multi-Dimensional Scaling(MDS)
+8. Spectral Embedding
+9. t-distributed Stochastic Neighbor Embedding(t-SNE)
+10. 정제된 표현을 이용한 학습
+    - 원본 데이터를 사용할 때
+      - KNN
+      - SVM
+      - Decision Tree
+      - Random Forest
+    - 정제된 데이터를 사용할 때
+      - KNN
+      - SVM
+      - Decision Tree
+      - Random Forest
+## 12. 분해(Decomposition)
+- PCA, SVD, NMF, 행렬 분해 Matrix Factorization, 요인 분석, LDA
+1. Principal Component Analysis(PCA)
+2. Incremental PCA
+3. Kernel PCA
+4. Sparse PCA
+5. Truncated Singular Value Decomposition(Truncated SVD)
+6. Dictionary Learning
+7. Factor Analysis
+8. Independent Component Analysis(ICA)
+9. Non-negative Matrix Factorization
+10. Latent Dirichlet Allocation(LDA)
+11. Linear Discriminant Analysis(LDA)
+12. 압축된 표현을 사용한 학습
+    - KNN
+    - SVM
+    - Decision Tree
+    - Random Forest
+13. 복원된 표현을 사용한 학습
+    - KNN
+    - SVM
+    - Decision Tree
+    - Random Forest   
 ## 13. 추천 시스템(Recommender System)
   - 컨텐츠 기반 (Content- based Filtering), 협업 필터링(Collaborative Filtering), Hybrid 방식, SVD, SVD++, NMF
 1. Surprise
