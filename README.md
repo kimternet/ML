@@ -1,5 +1,28 @@
 ## 1. 사이킷런(scikit-learn)
   - scikit-learn 주요 모듈, Estimator API, 데이터 전처리 모듈, 성능 평가 지표 학습
+1. scikit-learn 특징
+2. scikit-learn 주요 모듈
+3. estimator API
+   - API 사용 방법
+   - API 사용 예제
+4. 예제 데이터 셋
+   - 분류 또는 회귀용 데이터셋
+   - 온라인 데이터 셋
+   - 분류와 클러스터링을 위한 표본 데이터 생성
+   - 예제 데이터 셋 구조
+5. model_selection 모듈
+   - train_test_split(): 학습/테스트 데이터 셋 분리
+   - cross_val_score(): 교차검증
+   - GridSearchCV: 교차 검증과 최적 하이퍼 파라미터 찾기
+6. preprocessing 데이터 전처리 모듈
+   - StandardScaler: 표준화 클래스
+   - MinMaxScaler: 정규화 클래스
+7. 성능 평가 지표
+   - 정확도(Accuracy)
+   - 오차 행렬(Confusion Matrix)
+   - 정밀도 (Precision)와 재현율(Recall)
+   - F1 Score(F-measure)
+   - ROC 곡선과 AUC
 ## 2. 선형 모델(Linear Models)
   - 선형 회귀 Linear Regression, 릿지 회귀 Ridge Regression, 라쏘 회귀 Lasso Regression, 신축망 ElasticNet, 직교 정합 추구 Orthogonal Matchin Pursuit, 다항 회귀 Polynomial Regression
 ## 3. 로지스틱 회귀(Logistic Regression)
